@@ -1,0 +1,4 @@
+Le code respecte globalement les principes SOLID. 
+Tous les principes majeurs (OCP, LSP, ISP, DIP) sont correctement appliqués. 
+Cependant, on peut identifier une violation mineure du SRP dans la classe GestionnaireEmploiDuTemps qui assume deux responsabilités :
+ la gestion des cours ET la gestion des notifications.
